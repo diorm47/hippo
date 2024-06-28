@@ -1,0 +1,427 @@
+@font-face {
+  font-family: Baloo Thambi;
+  src: url("../fonts/BalooThambi-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #2396fe;
+  font-family: Baloo Thambi, sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 1420px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  border-radius: 24px 24px 60px 60px;
+  padding: 30px 50px 0 50px;
+  margin-top: 30px;
+  background: rgb(248, 234, 186);
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.logo h2 {
+  color: rgb(30, 30, 30);
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -2.4%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main_btn {
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Baloo Thambi;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+  background: rgb(35, 150, 254);
+}
+
+.nav_content_left h1 {
+  color: rgb(35, 150, 254);
+  font-family: Baloo Thambi;
+  font-size: 196px;
+  font-weight: 400;
+  line-height: 301px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.nav_content_left_desc p {
+  color: rgb(30, 30, 30);
+  font-family: Baloo Thambi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.main_btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.adress .main_btn {
+  background: rgb(255, 255, 255);
+  color: rgb(30, 30, 30);
+}
+.adress {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.nav_content .main_btn {
+  padding: 5px 12px 5px 12px;
+  height: 34px;
+}
+.header_contacts {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav_content {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+}
+.about {
+  padding-top: 100px;
+}
+.about h2,
+.road_map h2 {
+  color: rgb(255, 255, 255);
+  font-family: Baloo Thambi;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 147px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about_blog {
+  border-radius: 24px 60px 60px 60px;
+  padding: 50px;
+  box-shadow: 8px 8px 0px 0px rgb(17, 0, 0);
+  background: rgb(248, 234, 186);
+}
+.about_blog p {
+  color: rgb(17, 0, 0);
+  font-family: Baloo Thambi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about_blog_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.team h2 {
+  color: rgb(255, 255, 255);
+  font-family: Baloo Thambi;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 147px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+
+.team_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team_wrapper p {
+  color: rgb(255, 255, 255);
+  font-family: Baloo Thambi;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.road_map {
+  padding-top: 100px;
+  padding-bottom: 330px;
+}
+
+.road_map_wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.road_map_wrapper_item {
+  border-radius: 24px 60px 60px 60px;
+  padding: 24px 50px 24px 50px;
+  box-shadow: 8px 8px 0px 0px rgb(17, 0, 0);
+  background: rgb(248, 234, 186);
+  position: relative;
+}
+.road_map_wrapper_item p {
+  color: rgb(0, 0, 0);
+  font-family: Baloo Thambi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.road_map_wrapper_item div {
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px 24px 10px 24px;
+  background: rgb(0, 0, 0);
+  left: -29px;
+  top: -29px;
+}
+.road_map_wrapper_item div span {
+  color: rgb(255, 255, 255);
+  font-family: Baloo Thambi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: rgb(255, 165, 0);
+  padding: 25px;
+  overflow: hidden;
+}
+footer a p {
+  color: rgb(255, 255, 255);
+  font-family: Baloo Thambi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.nav_content_right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.team_wrapper div {
+  width: 33%;
+}
+.team_wrapper div img {
+  width: 100%;
+}
+.adress_wrapper h3 {
+  color: rgb(30, 30, 30);
+  font-family: Baloo Thambi;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 1440px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav_content_left {
+    padding-bottom: 40px;
+  }
+  .nav_content_right img {
+    width: 100%;
+  }
+  .about_blog_wrapper {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav_content {
+    flex-direction: column;
+  }
+  .road_map_wrapper {
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .logo h2 {
+    color: rgb(30, 30, 30);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -2.4%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .main_btn {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  nav {
+    margin-bottom: 50px;
+  }
+  .nav_content_left h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 98px;
+    letter-spacing: 0%;
+    text-shadow: 8px 8px 0 rgb(0, 0, 0);
+  }
+  .nav_content_left_desc p br {
+    display: none;
+  }
+  .nav_content_left_desc p {
+    color: rgb(30, 30, 30);
+    font-family: Baloo Thambi;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .adress {
+    flex-wrap: wrap;
+  }
+  .about h2,
+  .road_map h2 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0%;
+  }
+  .about {
+    padding-top: 50px;
+  }
+  .about_blog {
+    padding: 24px;
+  }
+  .about_blog p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+  }
+  .about_blog_wrapper {
+    margin-top: 24px;
+    gap: 24px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .team h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+  }
+  .team_wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .team_wrapper div {
+    width: 100%;
+  }
+  .team_wrapper p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+  }
+  .road_map h2 {
+    margin-bottom: 50px;
+  }
+  .road_map_wrapper {
+    gap: 50px;
+  }
+  .road_map_wrapper_item {
+    padding: 24px;
+  }
+  .road_map_wrapper_item p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+  }
+  .road_map {
+    padding-bottom: 100px;
+  }
+  .adress .main_btn {
+    height: auto;
+    min-height: 34px;
+  }
+  .adress .main_btn p,
+  .about_blog p {
+    word-break: break-all; /* Разрывает длинные слова */
+    overflow-wrap: break-word; /* Переносит длинные слова */
+  }
+  .about_blog {
+    border-radius: 12px 30px 30px 30px;
+  }
+  header {
+    border-radius: 12px 12px 30px 30px;
+  }
+  .road_map_wrapper_item {
+    border-radius: 12px 30px 30px 30px;
+  }
+  .adress_wrapper h3 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+  }
+}
